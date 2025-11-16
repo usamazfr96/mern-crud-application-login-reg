@@ -1,0 +1,1 @@
+CRUD Application built using MERN. Proper implementation of backend logics for login and registration and other crud operations including he implementation of proper jwt tokens at the time of login. Front end contains properly maintained login and registration and crud application form page with grid view.
