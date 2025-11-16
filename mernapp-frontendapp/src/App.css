@@ -1,0 +1,54 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif; }
+body { background:#f7f8fa; color:#333; }
+
+/* Navbar */
+.navbar { background:#2563eb; color:#fff; padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; }
+.navbar a, .navbar button { color:#fff; text-decoration:none; margin-left:1rem; font-weight:500; background:none; border:none; cursor:pointer; }
+.navbar a:hover, .navbar button:hover { text-decoration:underline; }
+
+/* Auth Forms */
+.auth-container { max-width:400px; margin:5rem auto; background:#fff; padding:2rem; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); }
+.auth-container h2 { text-align:center; margin-bottom:1.5rem; color:#2563eb; }
+.auth-container form input { width:100%; padding:0.75rem; margin-bottom:1rem; border:1px solid #ccc; border-radius:6px; }
+.auth-container form button { width:100%; padding:0.75rem; background:#2563eb; color:#fff; border:none; border-radius:6px; font-size:1rem; cursor:pointer; }
+.auth-container form button:hover { background:#1e4ed8; }
+.auth-container p { text-align:center; margin-top:1rem; }
+.auth-container a { color:#2563eb; text-decoration:none; }
+.auth-container a:hover { text-decoration:underline; }
+
+/* Posts */
+.posts-wrapper { max-width:1000px; margin:3rem auto; padding:0 1rem; }
+.posts-wrapper h1 { text-align:center; margin-bottom:2rem; color:#2563eb; }
+.posts-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:1.5rem; }
+.post-card { background:#fff; padding:1.5rem; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.08); transition:transform 0.2s, box-shadow 0.2s; }
+.post-card:hover { transform:translateY(-4px); box-shadow:0 6px 16px rgba(0,0,0,0.12); }
+.post-card h2 { color:#2563eb; margin-bottom:0.5rem; }
+.post-card p { line-height:1.6; margin-bottom:0.75rem; color:#444; }
+.post-card .meta { font-size:0.85rem; color:#666; }
+textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+.actions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.btn-edit {
+  background: #4caf50;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+}
+.btn-delete {
+  background: #e53935;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+}
